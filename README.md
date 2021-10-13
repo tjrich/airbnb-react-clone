@@ -6,6 +6,6 @@ It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-
 
 ## Preview
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+Preview the example live on [Vercel](https://vercel.com/):
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+[![Open in Vercel](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://airbnb-react-clone-tjrich.vercel.app/)
