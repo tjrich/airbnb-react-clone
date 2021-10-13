@@ -8,4 +8,4 @@ It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-
 
 Preview the example live on [Vercel](https://vercel.com/):
 
-[![Open in Vercel]()](https://airbnb-react-clone-tjrich.vercel.app/)
+[Open in Vercel](https://airbnb-react-clone-tjrich.vercel.app/)
