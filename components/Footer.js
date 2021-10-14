@@ -29,7 +29,7 @@ function Footer() {
                 <p>Little host</p>
             </div>
             <div className="space-y-4 text-xs text-gray-800">
-                <h5 className="font-bold">SUPOORT</h5>
+                <h5 className="font-bold">SUPPORT</h5>
                 <p>Get support</p>
                 <p>Lost keys</p>
                 <p>Missing room</p>
