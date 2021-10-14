@@ -35,9 +35,9 @@ export default function Home({ exploreData, cardsData }) {
               {exploreData?.map(({img, location, distance}) => ( //optional chaining, handle err if undefined
                 <SmallCard
                   key={img}
-                    img={img}
-                    distance={distance}
-                    location={location}
+                  img={img}
+                  distance={distance}
+                  location={location}
                 />
               ))}
           </div>
