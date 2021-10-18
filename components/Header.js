@@ -20,7 +20,12 @@ function Header() {
     const selectionRange = {
         startDate: startDate,
         endDate: endDate,
-        key: "Selection"
+        key: "selection"
+    }
+
+    const handleSelect = (ranges) => {
+        setStartDate(ranges.selection.startDate)
+        setEndDate(ranges.selection.endDate)
     }
 
     return (                        // z-index of 50 keeps the header in the foreground
@@ -66,10 +71,16 @@ function Header() {
 
             {/* Checks if searchInput is not blank and renders the calendar */}
             {searchInput && (
-                <div>
+                <div className="flex flex-col col-span-3 mx-auto">
                     <DateRangePicker
                         ranges={[selectionRange]}
+                        minDate={new Date()}
+                        rangeColors={["#FD5B61"]}
+                        onChange={handleSelect}
                     />
+                    <div>
+                        <h2></h2>
+                    </div>
                 </div>
             )} 
 
