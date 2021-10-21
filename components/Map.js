@@ -4,7 +4,7 @@ import getCenter from "geolib/es/getCenter"
 
 function Map({searchResults}) {
 
-    const [selectedLocation, setSelectedLocation] = useState()
+    const [selectedLocation, setSelectedLocation] = useState({})
     
     // Transform searchResults object into the:
     //  {   latitude: 37.7577, 
